@@ -4,6 +4,12 @@
  */
 package jogodesenvolvido;
 
-public class Arma {
-    // Defina o conteúdo da classe Arma, se necessário
+public abstract class Arma {
+    public abstract void arma();
+    
+    public void usarArma() {
+       
+    }
+    
   }
+  
