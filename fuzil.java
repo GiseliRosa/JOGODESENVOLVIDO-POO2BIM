@@ -6,4 +6,14 @@ package jogodesenvolvido;
 
  public abstract class fuzil extends Arma{
 
+    public fuzil() {
+        usarArma();
+    }
+     
+        public void usarArma(){
+        System.out.println("Usando arma");
+      
+  }
+
+
    }
