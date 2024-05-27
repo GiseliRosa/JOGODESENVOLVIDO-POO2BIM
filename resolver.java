@@ -4,6 +4,16 @@
  */
 package jogodesenvolvido;
 
-  public abstract class resolver extends Arma {
+  public abstract class revolver extends Arma {
+
+    public revolver() {
+        usarArma();
+    }
+      
+
+    public void usarArma(){
+        System.out.println("Usando arma");
+      
+  }
 
    }
