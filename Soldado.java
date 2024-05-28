@@ -8,12 +8,11 @@ package jogodesenvolvido;
 
     public Soldado() {
         desenhar();
-        
     }
 
     @Override
     public void desenhar() {
-             System.out.println("Desenhando soldado");
+        System.out.println("Desenhando soldado");
     }
 
     @Override
