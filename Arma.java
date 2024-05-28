@@ -5,12 +5,10 @@
 package jogodesenvolvido;
 
 public abstract class Arma {
-    dano;
-    public abstract void arma();
+    int dano;
     
-    public void usarArma() {
-       
-    }
+    // Definindo metodos abstratos
+    public abstract void usarArma();
+    public abstract int getDano();
     
   }
-  
