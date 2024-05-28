@@ -8,7 +8,6 @@ package jogodesenvolvido;
      
        public LutSumo() {
         desenhar();
-        
     }
 
     @Override
