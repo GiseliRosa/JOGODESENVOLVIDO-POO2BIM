@@ -5,7 +5,9 @@
 package jogodesenvolvido;
 
   public abstract class Personagem {
-      
+     String nome;
+      arma Arma_IF;
+       double altura;
   
     public abstract void desenhar();
   
