@@ -5,6 +5,7 @@
 package jogodesenvolvido;
 
 public abstract class Arma {
+    dano;
     public abstract void arma();
     
     public void usarArma() {
