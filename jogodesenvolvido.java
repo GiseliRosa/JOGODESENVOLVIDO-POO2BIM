@@ -14,8 +14,8 @@ public class Jogodesenvolvido {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        InOut.leInt("Insira uma nova arma: (faca)");
-        InOut.leInt("Insira um novo personagem: (Mago)");
+        InOut.leString("Insira uma nova arma: (faca)");
+        InOut.leString("Insira um novo personagem: (Mago)");
         InOut.leString("Insira um novo personagem: (DragaoAlado)");
     }
     
