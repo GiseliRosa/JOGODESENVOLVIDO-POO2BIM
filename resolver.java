@@ -5,15 +5,18 @@
 package jogodesenvolvido;
 
   public abstract class revolver extends Arma {
-
-    public revolver() {
-        usarArma();
+   
+    
+    @Override
+    public int getDano(){
+        int max = 30, min = 15;
+        dano = (int)Math.floor(Math.random() * (max - min + 1) + min);
+        
+        return dano;
     }
       
-
+    @Override
     public void usarArma(){
-        System.out.println("Usando arma");
-      
+        InOut.MsgDeAviso("Usando revolver", "O revolver foi usado!");
   }
-
-   }
+}
