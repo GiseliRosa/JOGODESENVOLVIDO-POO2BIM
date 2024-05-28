@@ -5,9 +5,9 @@
 package jogodesenvolvido;
 
   public abstract class Personagem {
-     String nome;
-      arma Arma_IF;
-       double altura;
+    Arma Arma_IF;
+    int vida;
+    String nome;
   
     public abstract void desenhar();
   
@@ -25,5 +25,4 @@ package jogodesenvolvido;
     public void usarArma() {
        
     }
-    
   }
