@@ -7,14 +7,12 @@ package jogodesenvolvido;
   public class General extends Personagem {
 
     public General() {
-        
         desenhar();
-   
     }
 
     @Override
     public void desenhar() {
-                System.out.println("Desenhando General");
+        System.out.println("Desenhando General");
     }
 
     @Override
@@ -24,7 +22,5 @@ package jogodesenvolvido;
 
     public void arma() {
         //print
-    }
-
-        
+    }     
   }
