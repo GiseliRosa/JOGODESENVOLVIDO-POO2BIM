@@ -5,15 +5,18 @@
 package jogodesenvolvido;
 
  public abstract class fuzil extends Arma{
-
-    public fuzil() {
-        usarArma();
+     
+    
+    @Override
+    public int getDano(){
+        int max = 45, min = 30;
+        dano = (int)Math.floor(Math.random() * (max - min + 1) + min);
+        
+        return dano;
     }
      
-        public void usarArma(){
-        System.out.println("Usando arma");
-      
-  }
-
-
-   }
+    @Override
+    public void usarArma(){
+        InOut.MsgDeAviso("Usando Fuzil", "O fuzil foi usado");
+    }
+}
