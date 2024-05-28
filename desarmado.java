@@ -10,14 +10,11 @@ package jogodesenvolvido;
  */
 public abstract class desarmado extends Arma {
 
-    public desarmado() {
+    public desarmado(){
         usarArma();
     }
     
        public void usarArma(){
-        System.out.println("Usando arma");
-      
+        System.out.println("Usando arma");   
   }
-
-    
 }
