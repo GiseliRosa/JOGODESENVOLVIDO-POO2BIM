@@ -21,9 +21,15 @@ package jogodesenvolvido;
     }
 
     public void arma() {
-        //print
+        System.out.println("Soldado usando o revolver");
     }
     
+    @Override
+    public void atacar(){    
+        
+    }
       
-      
+    public void correr() {
+        System.out.println(" está correndo");
+    }
   }
