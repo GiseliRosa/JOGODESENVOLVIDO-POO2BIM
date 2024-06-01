@@ -23,6 +23,11 @@ package jogodesenvolvido;
 
     @Override
     public void arma() {
-        //print
+        InOut.MsgDeAviso("arma", "lutador de sumo desarmado");
+    }
+    
+    
+    public void correr() {
+        System.out.println(" está correndo");
     }
   }
