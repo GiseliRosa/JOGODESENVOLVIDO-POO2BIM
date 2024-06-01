@@ -14,7 +14,7 @@ public abstract class desarmado extends Arma {
         usarArma();
     }
     
-       public void usarArma(){
-        System.out.println("Usando arma");   
+      public void usarArma(){
+        System.out.println("Sem Arma");   
   }
 }
