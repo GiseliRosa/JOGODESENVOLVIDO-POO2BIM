@@ -21,6 +21,10 @@ package jogodesenvolvido;
     }
 
     public void arma() {
-        //print
-    }     
+       System.out.println("General usando o fuzil");
+    } 
+
+    public void correr() {
+        System.out.println(" está correndo");
+    }    
   }
